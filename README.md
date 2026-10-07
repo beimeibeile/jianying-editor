@@ -1,4 +1,9 @@
 # 剪映（jianying） Skill | AI 全自动用你的剪映替你剪辑
+
+> **衍生声明**：本项目基于 [luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) 衍生，作为 [ai-video-editor](https://github.com/beimeibeile/ai-video-editor) 6skill 体系中的**剪映底层控制模块**。核心代码与文档版权归原作者 luoluoluo22 所有，遵循 MIT 协议。本仓库未对核心逻辑做实质性修改，主要用于 ai-video-editor 体系的统一管理和调用。
+>
+> **原项目**：[luoluoluo22/jianying-editor-skill](https://github.com/luoluoluo22/jianying-editor-skill) | **原作者B站介绍**：[BV1hLzCBzEDS](https://www.bilibili.com/video/BV1hLzCBzEDS/?vd_source=0eaa8407ec8edd1e9f2a0abf6e126bf6)
+
 ![封面图](assets/cover.png)
 
 ### [B 站介绍](https://www.bilibili.com/video/BV1hLzCBzEDS/?vd_source=0eaa8407ec8edd1e9f2a0abf6e126bf6)
