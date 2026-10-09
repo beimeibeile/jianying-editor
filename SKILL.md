@@ -7,6 +7,35 @@ description: 剪映 (JianYing) AI自动化剪辑的高级封装 API (JyWrapper)�
 
 Use this skill when the user wants to automate video editing, generate drafts, or manipulate media assets in JianYing Pro.
 
+## 姊妹项目体系（8姊妹skill）
+
+本项目是AI视频编辑生态的核心剪辑底层，与以下姊妹项目协同工作：
+
+| 项目 | 定位 | 角色 |
+|------|------|------|
+| **ai-video-editor** | AI视频剪辑框架（大脑/集成平台） | 🚢 航空母舰 |
+| **jianying-editor** | 剪映工程控制（本项目） | ✂️ 剪辑底层 |
+| **Pr-controls-skill** | Pr工程控制 | 🎬 专业剪辑 |
+| **Ps-controls-skill** | Photoshop控制 | 🖼️ 图像处理 |
+| **Comfyui-controls-skill** | ComfyUI智能管理 | 🚀 AI算力 |
+| **Blender-controls-skill** | Blender智能管理 | 🎨 3D特效 |
+| **remotion-controls-skill** | Remotion代码动画 | 💻 代码动画 |
+| **anysearch-skill** | 深度搜索 | 📡 情报搜索 |
+
+> 单体都能干活，任意组合互相增强。能力注册中心v3.2统一调度，智能路由选择最佳skill。
+
+## 核心能力（模块下沉后）
+
+本skill已接收ai-video-editor下沉的45个剪辑相关模块，具备完整独立工作能力：
+
+- **工程构建**：JyProject高层封装、pyJianYingDraft底层API
+- **特效系统**：jianying_effect_api（25+特效/动画/转场）、effect_library、animation_presets
+- **字幕系统**：artistic_subtitle、enhanced_subtitle、subtitle_bar、character_card
+- **音频系统**：audio_executor、sfx_executor、sound_library
+- **关键帧系统**：mask_keyframe、camera_moves、coord_verify、coord_mask_guard
+- **图片处理**：photo_slideshow_generator、blend_mode、circle_mask
+- **工具函数**：draft_fixer、text_executor、text_animation_presets
+
 Agent execution playbook: [docs/agent-playbook.md](docs/agent-playbook.md)
 Minimal command SOP: [docs/minimal-command-sop.md](docs/minimal-command-sop.md)
 Natural language usage guide: [usage.md](usage.md)
