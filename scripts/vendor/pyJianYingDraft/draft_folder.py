@@ -90,7 +90,7 @@ class DraftFolder:
 
         # 创建草稿文件
         script_file = ScriptFile(width, height, fps, maintrack_adsorb)
-        script_file.save_path = os.path.join(draft_path, "draft_info.json")
+        script_file.save_path = os.path.join(draft_path, "draft_content.json")
 
         return script_file
 
